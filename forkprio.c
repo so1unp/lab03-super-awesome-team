@@ -80,7 +80,7 @@ int main(int argc, char *argv[])
             }
 
             /* Consumir CPU indefinidamente hasta recibir SIGTERM */
-            busywork();
+            busywork();//comentar
             exit(EXIT_SUCCESS);   /* nunca llega aquí */
         }
 
